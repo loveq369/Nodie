@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="400" height="71" tilewidth="16" tileheight="16" nextobjectid="13">
+ <tileset firstgid="1" name="black" tilewidth="16" tileheight="16">
+  <image source="black.png" width="16" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="cantouch" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="npc_2803-5" tilewidth="16" tileheight="16">
+  <image source="../../../美术资源/游戏角色八方向动作连帧（二）/npc_2803-5.png" width="40" height="80"/>
+ </tileset>
+ <layer name="groud" width="400" height="71">
+  <data encoding="base64" compression="zlib">
+   eJzt1kGOwyAMBdDm/peeZaWItoYwYOA96e86CrFNPK8XAAAAAAAAAAAAAAAAAAAAAAAAd1chAPCL/QFAC/sD9le65+4+30TmwwxxklPn3f6gVs/9YdZyu/fF96Hs1JrYH/3tXkv74xzR/p7u1Dm2P56J1m+n+tofnGrXO91KLeq11myF2Yucwf7YT02/Sr9/8tyRev2/l/kO/xe1aNe7Tlnrb3+cKTp/PffHjF7bH+3Uos7IumTph/1BRPb9MXJP7PjNVIt6meowqz/Z9oc5HWPF78Ps/ZCxJiW979jKtehh1Xce0bPI30eeFT1P79k+wezv4tOe1b5H9nefVccVnvPrDDXnjJ750296mT0jIk8CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQ1VUIEFe6Q1nu0reziYiIfAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG/XLeRx742IiEgkfwpxBy0=
+  </data>
+ </layer>
+ <objectgroup name="obj">
+  <object id="1" name="1" x="342" y="135" width="52" height="48"/>
+  <object id="2" name="2" x="826" y="236" width="66" height="37"/>
+  <object id="3" name="3" x="1100" y="189" width="104" height="52"/>
+  <object id="4" gid="4" x="359" y="301" width="16" height="16"/>
+  <object id="5" gid="4" x="315" y="270" width="16" height="16"/>
+  <object id="6" gid="4" x="383" y="240" width="16" height="16"/>
+  <object id="7" gid="4" x="383" y="240" width="16" height="16"/>
+  <object id="8" gid="4" x="214" y="318" width="16" height="16"/>
+  <object id="9" gid="4" x="215" y="318" width="16" height="16"/>
+  <object id="10" gid="4" x="267" y="324" width="16" height="16"/>
+  <object id="11" gid="4" x="267" y="324" width="16" height="16"/>
+  <object id="12" gid="10" x="281" y="283" width="16" height="16"/>
+ </objectgroup>
+</map>
